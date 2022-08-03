@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <script defer src="index.js"></script>
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section>
+    <div class="advice-box">
+
+      <h1 class="advice-box__title" id="number"></h1>
+      <p class="advice-box__text" id="text"></p>
+      
+      <picture class="advice-box__picture">
+        <source srcset="images/pattern-divider-desktop.svg" media="(min-width: 1024px)">
+        <source srcset="images/pattern-divider-mobile.svg">
+        <img class="advice-box__picture-img" src="images/pattern-divider-mobile.svg" alt="">
+      </picture>
+
+
+      <button class="advise-box__button" id="btn">
+        <img src="images/icon-dice.svg" alt="dice">
+      </button>
+
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/igorkustov3">Igor Kustov</a>.
+  </div>
+
+  
+</body>
+</html>
